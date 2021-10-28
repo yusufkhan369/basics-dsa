@@ -2,8 +2,13 @@ package crio.programmingconstructs;
 
 public class ReverseNumber {
     public static void main(String[] args) {
-        //TODO: Implement the logic to reverse a number
         int number = 123;
-        System.out.println();
+        int rev_num;
+        rev_num = 0;
+            while (number != 0) {
+                rev_num = number % 10 + rev_num * 10;
+                number = number / 10;
+            }
+        System.out.println(rev_num);
     }
 }
