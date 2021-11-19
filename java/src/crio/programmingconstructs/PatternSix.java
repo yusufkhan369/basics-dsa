@@ -1,5 +1,7 @@
 package crio.programmingconstructs;
 
+import java.util.LinkedList;
+
 public class PatternSix {
     public static void main(String[] args) {
         patternSix(4);
