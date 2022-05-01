@@ -8,9 +8,7 @@ public class Account {
     private String customerPhoneNumber;
 
     public Account(String customerName, String customerEmailAddress, String customerPhoneNumber) {
-        this.customerName = customerName;
-        this.customerEmailAddress = customerEmailAddress;
-        this.customerPhoneNumber = customerPhoneNumber;
+        this("123",34,customerName,customerEmailAddress,customerPhoneNumber);
     }
 
     public Account(String number, double balance, String customerName, String customerEmailAddress, String customerPhoneNumber) {
