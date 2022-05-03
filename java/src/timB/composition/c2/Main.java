@@ -13,6 +13,6 @@ public class Main {
         Lamp l = new Lamp("S",true,123);
         BedRoon br = new BedRoon("Be",wall1,wall2,wall3,wall4,c,b,l);
         br.makeBed();
-        br.ge
+//        br.ge
     }
 }
